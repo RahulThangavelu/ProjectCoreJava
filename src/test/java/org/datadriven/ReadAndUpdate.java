@@ -34,7 +34,11 @@ public class ReadAndUpdate {
         	c.setCellValue("Thangavel");
         	FileOutputStream o = new FileOutputStream(f);
         	w.write(o);
+
         
+
+        	System.out.println("Succesfully Read and Upadte");
+
         }
         
         mindtree();
