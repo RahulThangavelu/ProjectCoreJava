@@ -14,7 +14,12 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 @SuppressWarnings("unused")
 public class ReadAndUpdate {
+    
+	public static void mindtree() {
+		System.out.println("Welcome to Mindtree family");
 
+	}
+	
 	public static void main(String[] args) throws IOException {
 
         File f = new File("C:\\\\Users\\\\RAHUL\\\\eclipse-workspace\\\\MavenData\\\\Excel\\\\Book1.xlsx");
@@ -29,8 +34,13 @@ public class ReadAndUpdate {
         	c.setCellValue("Thangavel");
         	FileOutputStream o = new FileOutputStream(f);
         	w.write(o);
+        
         }
         
+        mindtree();
+        
 	}
+
+	
 
 }
